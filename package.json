@@ -1,0 +1,19 @@
+{
+  "name": "powercampus-bot-server",
+  "version": "8.0.0",
+  "description": "Playwright automation server for PowerCampus attendance discovery and push from AttendQR.",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "install-browser": "npx playwright install chromium"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "playwright": "^1.49.1",
+    "xlsx": "^0.18.5"
+  }
+}
